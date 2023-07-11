@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/profile-icon-png-916.png"
+    />
+    <title>Portfolio Website - Apurv vats</title>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <!-- NAV BAR -->
+        <nav>
+          <img src="WhatsApp Image 2023-07-11 at 14.27.53.jpeg" height="100px" width="300px" />
+          <ul id="sidemenu">
+            <li class="list-item">
+              <a href="#about" class="hyperlink">About Me</a>
+            </li>
+            <li class="list-item"><a href="#services" class="hyperlink">Skills</a></li>
+            <li class="list-item">
+              <a href="#portfolio" class="hyperlink">Projects</a>
+            </li>
+            <li class="list-item"><a href="#contact" class="hyperlink">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <!-- HERO SECTION -->
+        <div class="hero-section">
+          <div class="hero-section-left">
+            <h1>
+              Hi , I'm <span>Apurv vats</span><br />
+              From India
+            </h1>
+            <br />
+            <div class="hero-section-heading hero-section-subheading">
+              <b> I am a <span class="role"></span></b>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <script
+              src="https://kit.fontawesome.com/58a810656e.js"
+              crossorigin="anonymous"
+            ></script>
+            <script>
+              var typeData = new Typed(".role", {
+                strings: [
+                  "MERN Stack Developer",
+                  "Freelancer",
+                  "Frontend Developer",
+                  "Programmer",
+                ],
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 80,
+                backDelay: 1000,
+              });
+            </script>
+          </div>
+
+          <div class="hero-section-right">
+            <div class="absolute icons icon-dots">
+              <img src="/userAsset/dots.png" alt="" />
+            </div>
+            <div class="absolute icons icon-cube">
+              <img src="/userAsset/cube.png" alt="" />
+            </div>
+            <div class="absolute icons icon-circle">
+              <img src="/userAsset/circle.png" alt="" />
+            </div>
+            <div class="absolute icons icon-zigzag">
+              <img src="/userAsset/zigzags.png" alt="" />
+            </div>
+            <div class="absolute icons icon-plus">
+              <img src="/userAsset/plus.png" alt="" />
+            </div>
+            <div class="my-image">
+              <img
+                src="WhatsApp Image 2023-07-11 at 10.09.08.jpeg"
+                alt=""
+                height="430px"
+                width="345px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Me -->
+    <div id="about">
+      <div class="container-about">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="WhatsApp Image 2023-07-11 at 15.10.36.jpeg" height="550px" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              
+              I am currently pursuing B. Tech in Mathematics and Computing at Delhi Technological University. I know  C++  language and am learning various Data Structures and Algorithms and development too. I am very eager to explore different technologies. My strength is the dedication towards a goal
+                  
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-links" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Websites Devlopment</li>
+                <li>
+                  <span>Programming</span><br />Solved 250+ DSA/OOPS questions
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Websites Devlopment</li>
+                <li>
+                  <span>Programming</span><br />Solved 250+ DSA/OOPS questions
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Websites Devlopment</li>
+                <li>
+                  <span>Programming</span><br />Solved 250+ DSA/OOPS questions
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+          <div class="services-list">
+            <div>
+              <div class="stack">
+                <img src="./stack/HTML.png" alt=""  >
+                <img src="./stack/CSS.png" alt=""  >
+                <img src="./stack/Javascript.svg" alt="" >
+                <img src="./stack/Tailwind.png" alt=""  >
+              </div>
+            <h2>Frontend Web Development</h2>
+            <p>As a front-end web developer, my expertise lies in creating engaging and intuitive user interfaces. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive websites that deliver a seamless user experience.</p>
+            </div>
+            <div>
+              <div class="stack">
+                <img src="./stack/MongoDB.svg" alt="">
+                <img src="./stack/Express.png" alt="">
+                <img src="./stack/icons8-no-sql-32.png" alt="">
+              </div>
+            <h2>Backend Web Devlopment</h2>
+            <p>With expertise in database management and API integration, I excel in building robust and scalable web applications. I am skilled in optimizing server performance, implementing security measures, and collaborating with front-end developers to deliver efficient and seamless user experiences.</p>
+            </div>
+            <div>
+              <div class="stack">
+                <img src="./stack/Git.svg" alt="">
+                <img src="./stack/Github.svg" alt="">
+                <img src="./stack/React.png" alt="">
+                <img src="./stack/NodeJs.svg" alt="">
+              </div>
+            <h2>Other Frameworks & Skills</h2>
+            <p>I specialize in full-stack web development using MongoDB, Express.js, React, and Node.js. With proficiency in building dynamic and responsive web applications, I am experienced in creating RESTful APIs, handling data storage, and implementing front-end user interfaces.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <!-- Projects -->
+    <div id="portfolio">
+      <div class="container-project">
+        <h1 class="sub-title-pro">My Projects</h1>
+        <div class="work-list">
+          <div class="project">
+            <img
+              src="WhatsApp Image 2023-07-11 at 16.03.31.jpeg"
+              height="410px"
+              width="320px"
+            />
+            <div class="layer">
+              <h3>NETFLIX CLONE</h3>
+              <p>
+                Inspired by the popular streaming platform, I created a fully functional Netflix clone that emulates the key features of the original site. Users can browse a wide range of movies and TV shows, view details and trailers The project incorporates API integration to fetch real-time data.
+
+              </p>
+              <a href=" https://apurvvats.github.io/Netflix_clone/" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img
+              src="WhatsApp Image 2023-07-11 at 16.07.34.jpeg"
+              height="410px"
+              width="320px"
+            />
+            <div class="layer">
+              <h3>WEATHER APP</h3>
+              <p>
+                
+                  Weather App developed using React JS Real-Time Weather Updates.  the power of APIs, my Weather App provides users with up-to-date weather information based on their current location.
+
+              </p>
+              <a href="https://github.com/ApurvVats/weather-app" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+          </div>
+          <div class="project">
+            <img
+              src="WhatsApp Image 2023-07-09 at 10.36.19.jpeg"
+              height="410px"
+              width="320px"
+            />
+            <div class="layer">
+              <h3>SNAKE GAME</h3>
+              <p>
+                Using JavaScript, I implemented the game mechanics, enabling players to control a snake, collect food, and grow in length while avoiding collisions with the walls or the snake's own body. 
+              </p>
+              <a href="https://apurvvats.github.io/Snake_game/" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT ME SECTION -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>apurvvts@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-7050890037</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/apurv-vats-904982221/"
+                    target="blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ApurvVats" target="blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/apurv_vats_22/" target="blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/ApurvVats22" target="blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="https://docs.google.com/document/d/1e0WKzw6Oz434cf9a0eg6MybrU29nyb56R8nwAJi-Trs/edit?usp=sharing" download class="btn btn2">My Resume</a>
+              </div>
+              <div class="contact-right">
+                <p>Wanna ask something or , Just want to say Hello ?</p>
+                <form name="submit-to-google-sheet" class="form">
+                        <input type="text" name="Name" placeholder="Your name" required/>
+                        <input type="Email" name="Email" placeholder="Your email "required/>
+                        <textarea name="Message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                  <span id="msg"></span>
+                </div>
+            </div>
+          </div>
+          <div class="copyright">
+              Copyright © Apurv Vats
+          </div>
+      </div> 
+    <script src="script.js"></script>
+</body>
+</html>
